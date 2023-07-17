@@ -1,0 +1,68 @@
+*{
+    font-family: 'Inter';
+    font-style: normal;
+
+    padding: 0;
+    margin: 0;
+      
+    box-sizing: border-box;
+      
+    text-decoration: none;
+}
+ 
+.headerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 100vw;
+    height: 86px;
+    padding: 19px 48px;
+  
+    background-color: #407BFF;
+}
+  
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    width: 100vw;
+    max-width: 1440px;
+}
+
+.consultas {
+    display: flex;
+
+    gap: 20px;
+  
+    white-space: nowrap;    
+}
+  
+.headerLogo {
+    padding: 4px 32px;
+    border-radius: 16px;
+  
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+  
+    background: white;
+}
+  
+.headerLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    gap: 20px;
+  
+    white-space: nowrap;
+}
+  
+header a {
+    font-size: 16px;
+    font-weight: 700;
+  
+    color: white;
+}

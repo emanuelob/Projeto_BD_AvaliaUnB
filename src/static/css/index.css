@@ -1,0 +1,63 @@
+body {
+    height: 100%;
+    margin: 0;
+}
+
+p {
+    font-family: monospace;
+    font-size: 50px;
+    margin-top: 2rem;
+    margin-left: 26%;
+
+    border-right: 4px solid;
+    width: 26ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(26), blinking 0.5s infinite step-end alternate;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blinking {
+    50% {
+        border-color: transparent;
+    }
+}
+
+.turmaGroup img, .professorGroup img {
+    width: 420px;
+    height: 420px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.turmaGroup{
+    border-right: 5px solid #407BFF;
+    padding-right: 20px;
+}
+
+.turmaGroup, .professorGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Inter';
+    font-style: normal;
+    text-decoration: none;
+}
+
+.buttonTurma, .buttonProfessor {
+    font-size: 25px;
+    font-weight: 700;
+  
+    color: #407BFF;
+}
